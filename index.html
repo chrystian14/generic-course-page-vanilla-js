@@ -18,7 +18,7 @@
 <body>
   <!-- ===== Header ===== -->
   <header class="header">
-    <div class="container">
+    <div class="header__wrapper container">
       <img src="./src/assets/logo.svg" alt="Logo da página Generic Course">
       <button>Entrar para a próxima turma</button>
     </div>
@@ -27,9 +27,9 @@
   <main>
     <!-- ===== Banner Section ===== -->
     <section class="banner">
-      <div class="container">
-        <h1>Desenvolvendo <span>suas</span> próximas habilidades</h1>
-        <p>
+      <div class="banner__wrapper container">
+        <h1 class="banner__title">Desenvolvendo <span>suas</span> próximas habilidades</h1>
+        <p class="banner__description">
           Prepare-se para o futuro com nossos cursos focados em tecnologia. Oferecemos um ambiente colaborativo e
           conteúdos atualizados para impulsionar sua carreira.
         </p>
@@ -41,9 +41,9 @@
 
     <!-- ===== About Section ===== -->
     <section class="about">
-      <div class="container">
-        <h2>Quem somos nós?</h2>
-        <p>
+      <div class="about__wrapper container">
+        <h2 class="about__title">Quem somos nós?</h2>
+        <p class="about__description">
           Somos uma equipe dedicada a transformar vidas através da educação tecnológica. Nosso objetivo é oferecer um
           aprendizado acessível e prático, conectando nossos alunos às demandas do mercado de trabalho.
         </p>
@@ -52,55 +52,55 @@
 
     <!-- ===== FAQ Section ===== -->
     <section class="faq">
-      <div class="container">
+      <div class="faq__wrapper container">
 
         <!-- First Half -->
-        <div>
-          <h2>Dúvidas frequentes</h2>
-          <p>
+        <div class="faq__intro">
+          <h2 class="faq-intro__title">Dúvidas frequentes</h2>
+          <p class="faq-intro__description">
             Respondemos às principais perguntas sobre nossos cursos, modalidades e processos de inscrição.
           </p>
           <button>Entrar para a próxima turma</button>
         </div>
 
         <!-- Second Half -->
-        <ul>
+        <ul class="faq__questions">
           <!-- Question 1 -->
-          <li>
-            <h3>Quais matérias vou estudar?</h3>
-            <p>
+          <li class="faq__question">
+            <h3 class="faq-question__title">Quais matérias vou estudar?</h3>
+            <p class="faq-question__description">
               Nossos cursos cobrem uma ampla gama de tecnologias, incluindo HTML, CSS, JavaScript, React, Node.js e
               Django, além de ferramentas de versionamento e metodologias ágeis.
             </p>
           </li>
           <!-- Question 2 -->
           <li>
-            <h3>Tenho direito à cancelamento?</h3>
-            <p>
+            <h3 class="faq-question__title">Tenho direito à cancelamento?</h3>
+            <p class="faq-question__description">
               Sim, você pode cancelar sua inscrição até 7 dias após o início do curso e receber um reembolso completo,
               conforme nossa política de cancelamento.
             </p>
           </li>
           <!-- Question 3 -->
           <li>
-            <h3>O acesso ao curso é vitalício?</h3>
-            <p>
+            <h3 class="faq-question__title">O acesso ao curso é vitalício?</h3>
+            <p class="faq-question__description">
               Sim, ao se inscrever, você terá acesso vitalício ao conteúdo do curso, podendo revisá-lo sempre que
               desejar.
             </p>
           </li>
           <!-- Question 4 -->
           <li>
-            <h3>Posso estudar no meu próprio ritmo?</h3>
-            <p>
+            <h3 class="faq-question__title">Posso estudar no meu próprio ritmo?</h3>
+            <p class="faq-question__description">
               Sim! Nossos cursos são 100% online e você pode estudar conforme sua disponibilidade, acessando o conteúdo
               no seu ritmo.
             </p>
           </li>
           <!-- Question 5 -->
           <li>
-            <h3>Os cursos oferecem certificado?</h3>
-            <p>
+            <h3 class="faq-question__title">Os cursos oferecem certificado?</h3>
+            <p class="faq-question__description">
               Sim, todos os alunos que completam o curso recebem um certificado de conclusão, que pode ser utilizado
               para comprovar suas habilidades em processos seletivos.
             </p>
@@ -111,24 +111,24 @@
 
     <!-- ===== Comments Section ===== -->
     <section class="comments">
-      <div class="container">
+      <div class="comments__wrapper container">
         <!-- First Half -->
-        <div>
-          <h2>O que nossos alunos comentam?</h2>
-          <p>
+        <div class="comments__intro">
+          <h2 class="comments-intro__title">O que nossos alunos comentam?</h2>
+          <p class="comments-intro__description">
             Confira os depoimentos de alunos que já passaram por nossos cursos e como isso impactou suas carreiras.
           </p>
         </div>
 
         <!-- Second Half -->
-        <ul>
+        <ul class="comment__list">
           <!-- Comment 1 -->
           <li>
-            <div>
-              <h3>Júlia Lima</h3>
-              <p>Aluna na turma 2019</p>
+            <div class="comment__user">
+              <h3 class="user__name">Júlia Lima</h3>
+              <p class="user__class">Aluna na turma 2019</p>
             </div>
-            <p>
+            <p class="comment__content">
               "O curso me proporcionou as ferramentas que precisava para conseguir meu primeiro emprego na área de
               desenvolvimento. Sou muito grata!"
             </p>
@@ -136,10 +136,10 @@
           <!-- Comment 2 -->
           <li>
             <div>
-              <h3>Carlos Ino</h3>
-              <p>Aluno na turma 2020</p>
+              <h3 class="user__name">Carlos Ino</h3>
+              <p class="user__class">Aluno na turma 2020</p>
             </div>
-            <p>
+            <p class="comment__content">
               "A qualidade do conteúdo e o suporte da equipe foram excelentes. Recomendo a todos que querem iniciar na
               área."
             </p>
@@ -147,20 +147,20 @@
           <!-- Comment 3 -->
           <li>
             <div>
-              <h3>Camila Dias</h3>
-              <p>Aluna na turma 2019</p>
+              <h3 class="user__name">Camila Dias</h3>
+              <p class="user__class">Aluna na turma 2019</p>
             </div>
-            <p>
+            <p class="comment__content">
               "Consegui uma promoção no trabalho após aplicar os conhecimentos adquiridos no curso!"
             </p>
           </li>
           <!-- Comment 4 -->
           <li>
             <div>
-              <h3>João Vaz</h3>
-              <p>Aluno na turma 2020</p>
+              <h3 class="user__name">João Vaz</h3>
+              <p class="user__class">Aluno na turma 2020</p>
             </div>
-            <p>
+            <p class="comment__content">
               "As aulas práticas me ajudaram a entender conceitos complexos de uma forma simples. Hoje aplico tudo o que
               aprendi no meu dia a dia."
             </p>
@@ -168,10 +168,10 @@
           <!-- Comment 5 -->
           <li>
             <div>
-              <h3>Gabriela Souza</h3>
-              <p>Aluna na turma 2021</p>
+              <h3 class="user__name">Gabriela Souza</h3>
+              <p class="user__class">Aluna na turma 2021</p>
             </div>
-            <p>
+            <p class="comment__content">
               "Excelente curso! Me ajudou a mudar de carreira com sucesso e agora trabalho na área de tecnologia com
               confiança."
             </p>

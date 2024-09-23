@@ -1,0 +1,23 @@
+.faq__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.faq-intro__title {
+  color: var(--color-gray-6);
+}
+
+.faq-intro__description {
+  color: var(--color-gray-4);
+  text-align: justify;
+}
+
+.faq-question__title {
+  color: var(--color-gray-6);
+}
+
+.faq-question__description {
+  color: var(--color-gray-6);
+  text-align: justify;
+}

@@ -1,0 +1,13 @@
+.about__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.about__title {
+  color: var(--color-gray-6);
+}
+
+.about__description {
+  color: var(--color-gray-5);
+}

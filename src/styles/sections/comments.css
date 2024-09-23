@@ -1,0 +1,28 @@
+.comments__wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 3.5rem;
+}
+
+.comments-intro__title {
+  color: var(--color-gray-7);
+}
+
+.comments-intro__description {
+  color: var(--color-gray-7);
+  text-align: justify;
+}
+
+.user__name {
+  color: var(--color-gray-6);
+}
+
+.user__class {
+  color: var(--color-gray-4);
+}
+
+.comment__content {
+  color: var(--color-gray-5);
+  text-align: justify;
+  flex: 1 1 70%;
+}

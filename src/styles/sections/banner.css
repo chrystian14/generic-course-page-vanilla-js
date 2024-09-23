@@ -1,0 +1,20 @@
+.banner__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.75rem;
+}
+
+.banner__title {
+  color: var(--color-gray-6);
+}
+
+.banner__title > span {
+  color: var(--color-brand-1);
+}
+
+.banner__description {
+  color: var(--color-gray-4);
+  text-align: center;
+}
