@@ -1,0 +1,21 @@
+@import url("./reset.css");
+
+:root {
+  /* Primary */
+  --color-brand-1: #4c6ef5;
+  --color-brand-2: #364fc7;
+
+  /* Gray Scale */
+  --color-gray-1: #191c1f;
+  --color-gray-2: #212529;
+  --color-gray-3: #343a40;
+  --color-gray-4: #adb5bd;
+  --color-gray-5: #ced4da;
+  --color-gray-6: #edf2ff;
+  --color-gray-7: #f8f9fa;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--color-gray-1);
+}
