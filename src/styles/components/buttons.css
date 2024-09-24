@@ -1,0 +1,22 @@
+.btn {
+  padding: 1.25rem 2rem;
+  border: 0.0625rem solid var(--color-gray-6);
+  background-color: transparent;
+
+  color: var(--color-gray-7);
+  cursor: pointer;
+
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-size: clamp(0.8rem, 0.707rem + 0.374vw, 1rem);
+}
+
+.btn--brand {
+  background-color: var(--color-brand-1);
+  border-color: var(--color-brand-1);
+}
+
+.btn--brand:hover {
+  background-color: var(--color-brand-2);
+  border-color: var(--color-brand-2);
+}
