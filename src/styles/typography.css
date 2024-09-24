@@ -1,0 +1,35 @@
+.title1 {
+  font-weight: 600;
+  line-height: 140%;
+  font-size: clamp(2.5rem, 2.15rem + 1.402vw, 3.25rem);
+}
+
+.title2 {
+  font-weight: 600;
+  line-height: 160%;
+  font-size: clamp(1.75rem, 1.4rem + 1.402vw, 2.5rem);
+}
+
+.title3 {
+  font-weight: 600;
+  line-height: 160%;
+  font-size: clamp(1.3rem, 1.09rem + 0.841vw, 1.75rem);
+}
+
+.text1 {
+  font-weight: 400;
+  line-height: 150%;
+  font-size: clamp(1.163rem, 1.122rem + 0.164vw, 1.25rem);
+}
+
+.text2 {
+  font-weight: 400;
+  line-height: 1.6875rem;
+  font-size: clamp(1rem, 0.942rem + 0.234vw, 1.125rem);
+}
+
+.text3 {
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: clamp(0.8rem, 0.707rem + 0.374vw, 1rem);
+}
