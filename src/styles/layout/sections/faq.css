@@ -1,7 +1,26 @@
 .faq__wrapper {
   display: flex;
-  align-items: center;
   gap: 3.5rem;
+}
+
+.faq__intro {
+  flex: 1 1 50%;
+
+  position: sticky;
+  top: 12.5rem;
+  z-index: 0;
+  align-self: flex-start;
+}
+
+.faq-intro__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-right: 5rem;
+
+  > button {
+    align-self: flex-start;
+  }
 }
 
 .faq-intro__title {
@@ -13,11 +32,21 @@
   text-align: justify;
 }
 
+.faq__questions {
+  flex: 1 1 50%;
+}
+
+.faq__question:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
 .faq-question__title {
   color: var(--color-gray-6);
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .faq-question__description {
-  color: var(--color-gray-6);
+  color: var(--color-gray-4);
   text-align: justify;
 }
