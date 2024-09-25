@@ -11,6 +11,8 @@
   --color-gray-5: #ced4da;
   --color-gray-6: #edf2ff;
   --color-gray-7: #f8f9fa;
+
+  --sp-md: 2.5rem;
 }
 
 body {
