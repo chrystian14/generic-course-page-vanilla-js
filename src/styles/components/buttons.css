@@ -8,7 +8,8 @@
 
   font-weight: 600;
   line-height: 1.5rem;
-  font-size: clamp(0.8rem, 0.707rem + 0.374vw, 1rem);
+  /* font-size: clamp(0.8rem, 0.707rem + 0.374vw, 1rem); */
+  font-size: clamp(1rem, 0.907rem + 0.374vw, 1.2rem);
 }
 
 .btn--brand {

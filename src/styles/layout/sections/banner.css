@@ -8,6 +8,7 @@
 
 .banner__title {
   color: var(--color-gray-6);
+  text-align: center;
 }
 
 .banner__title > span {

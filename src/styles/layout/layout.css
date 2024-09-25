@@ -16,9 +16,13 @@
   background-color: var(--color-gray-2);
 }
 
-.banner,
+.banner {
+  padding-block: clamp(4rem, -1.14rem + 20.561vw, 15rem);
+}
+
 .about,
 .faq,
 .comments {
-  padding-block: clamp(4rem, -1.14rem + 20.561vw, 15rem);
+  /* padding: clamp(1rem, -0.869rem + 7.477vw, 5rem); */
+  padding: clamp(1rem, -0.402rem + 5.607vw, 4rem);
 }
