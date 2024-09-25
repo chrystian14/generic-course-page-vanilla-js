@@ -1,0 +1,44 @@
+.modal[open] {
+  background-color: var(--color-gray-2);
+  border: 2px solid var(--color-brand-1);
+  padding: 2.5rem 1.75rem;
+
+  display: flex;
+  gap: 1.94rem;
+  flex-direction: column;
+  max-width: 30rem;
+}
+
+.modal::backdrop {
+  background-color: rgba(25, 28, 31, 0.8);
+}
+
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal__title {
+  color: var(--color-gray-7);
+}
+
+.modal__description {
+  color: var(--color-gray-4);
+}
+
+.modal__input {
+  padding: 0.875rem 1.25rem;
+  border: 1px solid var(--color-gray-1);
+  outline: 1px solid var(--color-gray-1);
+  background-color: var(--color-gray-1);
+  color: var(--color-gray-4);
+}
+
+.modal__close-btn {
+  border: none;
+  padding: 0.5rem 0.75rem;
+  color: var(--color-gray-4);
+  background-color: var(--color-gray-3);
+  cursor: pointer;
+}

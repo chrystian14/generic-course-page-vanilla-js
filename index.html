@@ -13,6 +13,9 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="./src/styles/index.css">
+
+  <!-- Scripts -->
+  <script src="./src/scripts/modal.js" defer></script>
 </head>
 
 <body>
@@ -20,9 +23,22 @@
   <header class="header">
     <div class="header__wrapper container">
       <img src="./src/assets/logo.svg" alt="Logo da página Generic Course">
-      <button class="btn btn--brand">Matricular-se</button>
+      <button id="headerActionBtn" class="btn btn--brand">Matricular-se</button>
     </div>
   </header>
+
+  <!-- ===== Modal ===== -->
+  <dialog class="modal">
+    <header class="modal__header">
+      <h3 class="modal__title title2">Cadastro</h3>
+      <button class="modal__close-btn text3">X</button>
+    </header>
+    <p class="modal__description text2">
+      Inscreva-se para ser avisado sobre nossas próximas turmas e oportunidades de bolsas de estudo!
+    </p>
+    <input class="modal__input text2" type="text" placeholder="Digite seu e-mail">
+    <button class="btn btn--brand text3">Entrar na lista para próxima turma</button>
+  </dialog>
 
   <main>
     <!-- ===== Banner Section ===== -->
@@ -61,7 +77,7 @@
             <p class="faq-intro__description text1">
               Respondemos às principais perguntas sobre nossos cursos, modalidades e processos de inscrição.
             </p>
-            <button class="btn btn--brand">Entrar para a próxima turma</button>
+            <button id="faqActionBtn" class="btn btn--brand">Entrar para a próxima turma</button>
           </div>
         </div>
 
@@ -189,6 +205,8 @@
   <footer class="footer">
     <img src="./src/assets/logo.svg" alt="Logo da página Generic Course">
   </footer>
+
+
 </body>
 
 </html>
